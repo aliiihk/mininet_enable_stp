@@ -10,6 +10,6 @@ As a result, I wrote a script to go through a .py file exported from MiniEdit an
 - Run the enableSTP.py script and when prompted, enter the name of the script exported from Miniedit (the .py file)
 - After the script is done running, it will tell you the name of the new pyton script to run, run this as you would normally (controller will start automatically as well)
 
-#Points to be Noted
-It is assumed Mininet is already downloaded. For more information on the installtion of Mininet and MiniEdit, please visit http://mininet.org/download/ and http://www.brianlinkletter.com/how-to-use-miniedit-mininets-graphical-user-interface/
-There are multiple different methods to ensure connectivity between hosts such as using a different controller, this is just one method
+Some Points to be Noted
+- It is assumed Mininet is already downloaded. For more information on the installtion of Mininet and MiniEdit, please visit http://mininet.org/download/ and http://www.brianlinkletter.com/how-to-use-miniedit-mininets-graphical-user-interface/
+- There are multiple different methods to ensure connectivity between hosts such as using a different controller, this is just one method
