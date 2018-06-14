@@ -1,4 +1,4 @@
-# Enable STP Automatically on Mininet Switches
+# Enable STP on Mininet OpenFlow compatible Switches
 Mininet is a Linux-based program which allows you to run virtualized hosts which support the OpenFlow protocol for Software-Defined Networking (SDN).
 
 While experimenting different types of virtualized networks, I noticed that if you create a network with redundant paths, connectivity between hosts would fail as Spanning-tree would be disabled.
