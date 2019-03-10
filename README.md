@@ -3,7 +3,8 @@ Mininet is a Linux-based program which allows you to run virtualized hosts which
 
 While experimenting different types of virtualized networks, I noticed that if you create a network with redundant paths, connectivity between hosts would fail as Spanning-tree would be disabled.
 
-As a result, I wrote a script to go through a .py file exported from MiniEdit and enable Spanning-tree on all the switches. The steps are below:
+To address this issue, a script was wriitten which examines a .py file exported from MiniEdit and enable Spanning-tree on all the switches. The steps are below:
+
 - Run Miniedit and setup the network topology to your preference
 - Right click on the controller, click on properties and change the controller type to Remote Controller
 - Export and save as Level 2 script in the same directory as where the "enableSTP.py" script is being stored (downloaded from this project)
